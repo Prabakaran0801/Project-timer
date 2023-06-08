@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.712), rgba(87, 81, 81, 0.39)), url(../img/img.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.counter {
+    margin-top: 50px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+
+.box {
+  display: inline-block;
+  padding-left: 40px;
+
+}
+
+.newyear{
+    color: whitesmoke;
+    margin-top: 80px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+}
+  
+p{
+    margin-top: 100px;
+    color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+@media (min-width:576px) {
+    p{
+      font-size: 40px;
+    }
+    .newyear{
+      font-size: 100px;
+    }
+    .box{
+      width: 100px;
+      height: 70px;
+    }
+  
+    .box h2{
+      font-size: 40px;
+    }
+    .box small{
+      font-size:20px;
+    }
+}
+  
+  @media (min-width:768px) {
+    p{
+      font-size: 25px;
+    }
+    .newyear{
+      font-size: 150px;
+    } 
+}
